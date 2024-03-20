@@ -31,9 +31,3 @@ jobs:
         with:
           name: Serenity Report
           path: target/site/serenity/
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          branch: gh-pages
-          folder: target/site/serenity
